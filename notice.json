@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "2026-03-24",
+  "sections": [
+    {
+      "title": "EasyAuto 사용 안내",
+      "content": "<p style='margin-bottom:8px'>이지오토는 Grok, 젠스파크, Flow의 이미지/비디오 생성을 자동화해주는 프로그램입니다.</p><p style='margin-bottom:8px'>이지비디오 라이선스 보유자분들께 제공됩니다.</p>"
+    },
+    {
+      "title": "유용한 링크",
+      "content": "<p style='margin-bottom:8px'><a href='https://open.kakao.com/o/sAhGW0ab' target='_blank' style='color:#4fc3f7;text-decoration:underline'>카카오톡 문의</a></p><p style='margin-bottom:8px'><a href='https://www.youtube.com/@이지비디오' target='_blank' style='color:#4fc3f7;text-decoration:underline'>이지비디오 유튜브</a></p>"
+    }
+  ]
+}
