@@ -8,8 +8,65 @@ grok
 flow
 0. 배치설정에있는 연속 입력모드 체크하기.
 1.페이지URL(첫회만체크할것) : 영상참고해주세요.개인피씨마다다릅니다.
-2.프롬프트입력 : <div class="sc-45319f81-0 frdujR"><div class="sc-45319f81-3 jZAMtI" data-scroll-state="START"><div role="textbox" aria-multiline="true" spellcheck="false" class="sc-cc6342e-0 iTYalL sc-45319f81-5 cbhvkf" data-slate-editor="true" data-slate-node="value" contenteditable="true" zindex="-1" style="position: relative; white-space: pre-wrap; overflow-wrap: break-word; min-height: 20px;"><p data-slate-node="element"><span data-slate-node="text"><span data-slate-leaf="true"><span data-slate-placeholder="true" contenteditable="false" style="position: absolute; top: 0px; pointer-events: none; width: 100%; max-width: 100%; display: block; opacity: 0.333; user-select: none; text-decoration: none;">무엇을 만들고 싶으신가요?</span><span data-slate-zero-width="n" data-slate-length="0">﻿<br></span></span></span></p></div></div><div class="sc-45319f81-1 eDCyVC"><div class="sc-45319f81-2 czrAqW"><button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rh:" data-state="closed" class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-addd5871-0 ewQKQI eaSocK jQayrS"><i class="sc-95c4f607-0 dgSbCO google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.35rem" color="currentColor">add_2</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div><div class="sc-45319f81-6 bcKPpg"><button type="button" id="radix-:ri:" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="sc-16c4830a-1 hxjMEo sc-e7a64add-0 sc-e7a64add-1 gdoOJp cqfBcP sc-46973129-1 hrlPny">🍌 Nano Banana Pro<i class="sc-95c4f607-0 ieqNmC google-symbols sc-746cff7d-1 jVeiOt" font-size="1rem" color="hsla(0, 0%, 18.8%)">crop_16_9</i>x1<div data-type="button-overlay" class="sc-16c4830a-0 iSFgQn"></div></button><button class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-45319f81-4 ewQKQI eaSocK cNTGRJ"><i class="sc-95c4f607-0 dGuxiz google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.25rem" color="currentColor">arrow_forward</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div></div></div>
-3.텍스트 클릭 : button   //    arrow_forward
+2.에디터클리어 : [data-slate-editor="true"][contenteditable="true"]
+3.프롬프트입력 : <div class="sc-45319f81-0 frdujR"><div class="sc-45319f81-3 jZAMtI" data-scroll-state="START"><div role="textbox" aria-multiline="true" spellcheck="false" class="sc-cc6342e-0 iTYalL sc-45319f81-5 cbhvkf" data-slate-editor="true" data-slate-node="value" contenteditable="true" zindex="-1" style="position: relative; white-space: pre-wrap; overflow-wrap: break-word; min-height: 20px;"><p data-slate-node="element"><span data-slate-node="text"><span data-slate-leaf="true"><span data-slate-placeholder="true" contenteditable="false" style="position: absolute; top: 0px; pointer-events: none; width: 100%; max-width: 100%; display: block; opacity: 0.333; user-select: none; text-decoration: none;">무엇을 만들고 싶으신가요?</span><span data-slate-zero-width="n" data-slate-length="0">﻿<br></span></span></span></p></div></div><div class="sc-45319f81-1 eDCyVC"><div class="sc-45319f81-2 czrAqW"><button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rh:" data-state="closed" class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-addd5871-0 ewQKQI eaSocK jQayrS"><i class="sc-95c4f607-0 dgSbCO google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.35rem" color="currentColor">add_2</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div><div class="sc-45319f81-6 bcKPpg"><button type="button" id="radix-:ri:" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="sc-16c4830a-1 hxjMEo sc-e7a64add-0 sc-e7a64add-1 gdoOJp cqfBcP sc-46973129-1 hrlPny">🍌 Nano Banana Pro<i class="sc-95c4f607-0 ieqNmC google-symbols sc-746cff7d-1 jVeiOt" font-size="1rem" color="hsla(0, 0%, 18.8%)">crop_16_9</i>x1<div data-type="button-overlay" class="sc-16c4830a-0 iSFgQn"></div></button><button class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-45319f81-4 ewQKQI eaSocK cNTGRJ"><i class="sc-95c4f607-0 dGuxiz google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.25rem" color="currentColor">arrow_forward</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div></div></div>
+4.텍스트 클릭 : button
+4-1.텍스트 클릭 : arrow_forward
+
+flow 캐릭터매핑
+0. 배치설정에있는 연속 입력모드 체크하기.
+1.페이지URL(첫회만체크할것) : 영상참고해주세요.개인피씨마다다릅니다.
+2.클릭 : button[aria-haspopup="dialog"]
+3.캐릭터매핑(flow) : input[placeholder="애셋 검색"]
+4.에디터클리어 : <div class="sc-45319f81-0 frdujR"><div class="sc-45319f81-3 jZAMtI" data-scroll-state="START"><div role="textbox" aria-multiline="true" spellcheck="false" class="sc-cc6342e-0 iTYalL sc-45319f81-5 cbhvkf" data-slate-editor="true" data-slate-node="value" contenteditable="true" zindex="-1" style="position: relative; white-space: pre-wrap; overflow-wrap: break-word; min-height: 20px;"><p data-slate-node="element"><span data-slate-node="text"><span data-slate-leaf="true"><span data-slate-placeholder="true" contenteditable="false" style="position: absolute; top: 0px; pointer-events: none; width: 100%; max-width: 100%; display: block; opacity: 0.333; user-select: none; text-decoration: none;">무엇을 만들고 싶으신가요?</span><span data-slate-zero-width="n" data-slate-length="0">﻿<br></span></span></span></p></div></div><div class="sc-45319f81-1 eDCyVC"><div class="sc-45319f81-2 czrAqW"><button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rh:" data-state="closed" class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-addd5871-0 ewQKQI eaSocK jQayrS"><i class="sc-95c4f607-0 dgSbCO google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.35rem" color="currentColor">add_2</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div><div class="sc-45319f81-6 bcKPpg"><button type="button" id="radix-:ri:" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="sc-16c4830a-1 hxjMEo sc-e7a64add-0 sc-e7a64add-1 gdoOJp cqfBcP sc-46973129-1 hrlPny">🍌 Nano Banana Pro<i class="sc-95c4f607-0 ieqNmC google-symbols sc-746cff7d-1 jVeiOt" font-size="1rem" color="hsla(0, 0%, 18.8%)">crop_16_9</i>x1<div data-type="button-overlay" class="sc-16c4830a-0 iSFgQn"></div></button><button class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-45319f81-4 ewQKQI eaSocK cNTGRJ"><i class="sc-95c4f607-0 dGuxiz google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.25rem" color="currentColor">arrow_forward</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div></div></div>
+5.프롬프트입력 : <div class="sc-45319f81-0 frdujR"><div class="sc-45319f81-3 jZAMtI" data-scroll-state="START"><div role="textbox" aria-multiline="true" spellcheck="false" class="sc-cc6342e-0 iTYalL sc-45319f81-5 cbhvkf" data-slate-editor="true" data-slate-node="value" contenteditable="true" zindex="-1" style="position: relative; white-space: pre-wrap; overflow-wrap: break-word; min-height: 20px;"><p data-slate-node="element"><span data-slate-node="text"><span data-slate-leaf="true"><span data-slate-placeholder="true" contenteditable="false" style="position: absolute; top: 0px; pointer-events: none; width: 100%; max-width: 100%; display: block; opacity: 0.333; user-select: none; text-decoration: none;">무엇을 만들고 싶으신가요?</span><span data-slate-zero-width="n" data-slate-length="0">﻿<br></span></span></span></p></div></div><div class="sc-45319f81-1 eDCyVC"><div class="sc-45319f81-2 czrAqW"><button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rh:" data-state="closed" class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-addd5871-0 ewQKQI eaSocK jQayrS"><i class="sc-95c4f607-0 dgSbCO google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.35rem" color="currentColor">add_2</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div><div class="sc-45319f81-6 bcKPpg"><button type="button" id="radix-:ri:" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="sc-16c4830a-1 hxjMEo sc-e7a64add-0 sc-e7a64add-1 gdoOJp cqfBcP sc-46973129-1 hrlPny">🍌 Nano Banana Pro<i class="sc-95c4f607-0 ieqNmC google-symbols sc-746cff7d-1 jVeiOt" font-size="1rem" color="hsla(0, 0%, 18.8%)">crop_16_9</i>x1<div data-type="button-overlay" class="sc-16c4830a-0 iSFgQn"></div></button><button class="sc-e8425ea6-0 gLXNUV sc-d3791a4f-0 sc-d3791a4f-4 sc-45319f81-4 ewQKQI eaSocK cNTGRJ"><i class="sc-95c4f607-0 dGuxiz google-symbols sc-e8425ea6-1 kJJDGi" font-size="1.25rem" color="currentColor">arrow_forward</i><span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">만들기</span></button></div></div></div>
+6.텍스트클릭 : button
+6-1.텍스트클릭 : arrow_forward
+7.flow캐릭터지우기
+
+
+flow video(시작)
+0. 배치설정에 있는 연속 입력모드 체크하기.
+0-0. 배치설정에 있는 flow 비디오 연속 모드 체크하기.
+1.페이지URL(첫회만체크할것) : 영상참고해주세요.개인피씨마다다릅니다.
+2.텍스트클릭 : div[aria-haspopup="dialog"]
+2-1.텍스트클릭 : 시작
+3.키보드입력 : input[placeholder="애셋 검색"]
+3-1.키보드입력 : {n:3}
+4.키보드입력 : input[placeholder="애셋 검색"]
+4-1.키보드입력 : {Enter}
+5.클릭 : [data-slate-editor="true"][contenteditable="true"]
+6.대기 : 1
+7.에디터클리어 : [data-slate-editor="true"][contenteditable="true"]
+8.프롬프트입력 : [data-slate-editor="true"][contenteditable="true"]
+9.키보드입력 : [data-slate-editor="true"][contenteditable="true"]
+9-1.키보드입력 : {Enter}
+10.클릭 : button[data-card-open] i.google-symbols
+
+
+flow video(시작,종료)
+1.페이지URL(첫회만체크할것) : 영상참고해주세요.개인피씨마다다릅니다.
+2.텍스트클릭 : div[aria-haspopup="dialog"]
+2-1.텍스트클릭 : 시작
+3.키보드입력 : input[placeholder="애셋 검색"]
+3-1.키보드입력 : {n:3}
+4.키보드입력 : input[placeholder="애셋 검색"]
+4-1.키보드입력 : {Enter}
+5.텍스트클릭 : div[aria-haspopup="dialog"]
+5-1.텍스트클릭 : 종료
+6.키보드입력 : input[placeholder="애셋 검색"]
+6-1.키보드입력 : {n+1:3}
+7.키보드입력 : input[placeholder="애셋 검색"]
+7-1.키보드입력 : {Enter}
+8.클릭 : [data-slate-editor="true"][contenteditable="true"]
+9.대기 : 1
+10.에디터클리어 : [data-slate-editor="true"][contenteditable="true"]
+11.프롬프트입력 : [data-slate-editor="true"][contenteditable="true"]
+12.키보드입력 : [data-slate-editor="true"][contenteditable="true"]
+12-1.키보드입력 : {Enter}
+13.클릭 : button[data-card-open] i.google-symbols
+14.클릭 : button[data-card-open]:last-of-type i.google-symbols
+
 
 genspark
 1.페이지URL(첫회만체크할것) : https://www.genspark.ai/agents?type=image_generation_agent&action=chat_now
