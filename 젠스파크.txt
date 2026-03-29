@@ -1,0 +1,5 @@
+genspark
+1.페이지URL(첫회만체크할것) : https://www.genspark.ai/agents?type=image_generation_agent&action=chat_now
+2.프롬프트 입력 : <textarea data-v-d60d1f02="" name="query" class="search-input j-search-input h-[42px] placeholder:text-[#909499] dark:text-white" type="text" placeholder="A magical forest w" value="" style="height: 42px;"></textarea>
+3.캐릭터매핑시 매핑할것 영상참고
+4.클릭 : .enter-icon-wrapper

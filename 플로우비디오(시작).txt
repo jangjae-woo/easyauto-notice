@@ -1,0 +1,17 @@
+flow video(시작)
+0. 배치설정에 있는 연속 입력모드 체크하기.
+0-0. 배치설정에 있는 flow 비디오 연속 모드 체크하기.
+1.페이지URL(첫회만체크할것) : 영상참고해주세요.개인피씨마다다릅니다.
+2.텍스트클릭 : div[aria-haspopup="dialog"]
+2-1.텍스트클릭 : 시작
+3.키보드입력 : input[placeholder="애셋 검색"]
+3-1.키보드입력 : {n:3}
+4.키보드입력 : input[placeholder="애셋 검색"]
+4-1.키보드입력 : {Enter}
+5.클릭 : [data-slate-editor="true"][contenteditable="true"]
+6.대기 : 1
+7.에디터클리어 : [data-slate-editor="true"][contenteditable="true"]
+8.프롬프트입력 : [data-slate-editor="true"][contenteditable="true"]
+9.키보드입력 : [data-slate-editor="true"][contenteditable="true"]
+9-1.키보드입력 : {Enter}
+10.클릭 : button[data-card-open] i.google-symbols
