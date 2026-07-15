@@ -1,0 +1,6 @@
+grok
+1.페이지URL(매번) : https://grok.com/imagine
+2.프롬프트(gen,grok) : <div contenteditable="true" translate="no" class="tiptap ProseMirror w-full px-2 bg-transparent focus:outline-none text-primary align-bottom overflow-y-auto !max-w-none prose [&amp;_ul&gt;li&gt;p]:my-0 [&amp;_ol&gt;li&gt;p]:my-0 [&amp;_li&gt;ol]:my-0 [&amp;_li&gt;ul]:my-0 [&amp;_p]:my-0 [&amp;_ul]:my-0 [&amp;_ol]:my-0 py-3.5 my-0 max-h-40" tabindex="0"><p data-placeholder="Type to imagine" class="is-empty is-editor-empty"><br class="ProseMirror-trailingBreak"></p></div>
+3.이미지업로드 : <div contenteditable="true" translate="no" class="tiptap ProseMirror w-full px-2 bg-transparent focus:outline-none text-primary align-bottom overflow-y-auto !max-w-none prose [&amp;_ul&gt;li&gt;p]:my-0 [&amp;_ol&gt;li&gt;p]:my-0 [&amp;_li&gt;ol]:my-0 [&amp;_li&gt;ul]:my-0 [&amp;_p]:my-0 [&amp;_ul]:my-0 [&amp;_ol]:my-0 py-3.5 my-0 max-h-40" tabindex="0"><p>gh</p></div>
+4.그록생성버튼 : <path d="M6 11L12 5M12 5L18 11M12 5V19" stroke="currentColor" stroke-linecap="square">
+5.그록영상다운로드 : 자동
