@@ -3,5 +3,5 @@ flow
 1.페이지URL(첫회만체크할것) : https://labs.google/fx/ko/tools/flow
 2.에디터클리어 : [contenteditable="true"]
 3.프롬프트(gen,grok) : [contenteditable="true"]
-4.클릭 : button[aria-label="생성 시작"]
+4.클릭 : #main-content > flow-project-shell > flow-project-page > flow-prompt-box > flow-prompt-box-instruction-card-wrapper > div > div > flow-base-prompt-box > div > div.bottom-controls > div > flow-generate-icon-button > button > span.mat-focus-indicator
 5.대기 : 7-25 랜덤

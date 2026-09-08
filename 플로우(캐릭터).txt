@@ -5,5 +5,5 @@ flow 캐릭터매핑
 3.캐릭터매핑(flow) : input[placeholder="애셋 검색"]
 4.에디터클리어 : [contenteditable="true"]
 5.프롬프트(gen,grok) : [contenteditable="true"]
-6.클릭 : button[aria-label="생성 시작"]
+6.클릭 : #main-content > flow-project-shell > flow-project-page > flow-prompt-box > flow-prompt-box-instruction-card-wrapper > div > div > flow-base-prompt-box > div > div.bottom-controls > div > flow-generate-icon-button > button > span.mat-focus-indicator
 8.대기 : 7-25 랜덤
