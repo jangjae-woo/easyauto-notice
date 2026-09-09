@@ -1,8 +1,8 @@
 flow 캐릭터매핑
 0. 배치설정에있는 연속 입력모드 체크하기.
 1.페이지URL(첫회만체크할것) : https://labs.google/fx/ko/tools/flow
-2.클릭 : button[aria-label="프롬프트 상자에 소재 추가"]
-3.캐릭터매핑(flow) : input[placeholder="애셋 검색"]
+2.클릭 : flow-prompt-box flow-add-menu button.add-menu-trigger
+3.캐릭터매핑(flow) : flow-add-menu-popover-content input.search-input
 4.에디터클리어 : [contenteditable="true"]
 5.프롬프트(gen,grok) : [contenteditable="true"]
 6.클릭 : #main-content > flow-project-shell > flow-project-page > flow-prompt-box > flow-prompt-box-instruction-card-wrapper > div > div > flow-base-prompt-box > div > div.bottom-controls > div > flow-generate-icon-button > button > span.mat-focus-indicator
