@@ -5,5 +5,5 @@ flow 캐릭터매핑
 3.캐릭터매핑(flow) : flow-add-menu-popover-content input.search-input
 4.에디터클리어 : [contenteditable="true"]
 5.프롬프트(gen,grok) : [contenteditable="true"]
-6.클릭 : #main-content > flow-project-shell > flow-project-page > flow-prompt-box > flow-prompt-box-instruction-card-wrapper > div > div > flow-base-prompt-box > div > div.bottom-controls > div > flow-generate-icon-button > button > span.mat-focus-indicator
+6.클릭 : flow-generate-icon-button > button
 8.대기 : 7-25 랜덤
